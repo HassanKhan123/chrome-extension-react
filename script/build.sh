@@ -34,6 +34,7 @@ build_others() {
     # cp src/content/content_script.js dist
 
     cp src/background/background.html dist
+    
 #    cp src/background/firebase*.js dist
 #    cp src/background/api.js dist
     mv dist/index.html dist/popup.html
